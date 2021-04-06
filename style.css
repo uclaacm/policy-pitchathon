@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Poppins:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Source+Code+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap");
+.topbar {
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 90%;
+  height: 60px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+  font-family: WestwoodSans, sans-serif;
+}
+
+.menu {
+  position: absolute;
+  right: 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  text-align: center;
+  font-family: Poppins, sans-serif;
+}
+#menuitem:hover {
+  background-color: #CD8CFF;
+  border-radius: 7px;
+}
+
+#menuitem{
+  margin: 10px;
+  padding: 10px;
+}
+
+#menuitem{
+    vertical-align: top;
+}
+
+
+.title
+{
+  font-family: WestwoodSans, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  color: #000000;
+}
+.centered {
+  position: relative;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.banner
+{
+  margin-top: 30px;
+  width: 700px;
+  height: 300px;
+  background: #C4C4C4;
+}
+
+.blurb
+{
+  position: relative;
+  margin-top: 20px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+
+
+  color: #000000;
+}
+
+
+
+
+@font-face {
+  font-family: WestwoodSans;
+  src: url("../assets/WestwoodSans/Westwood_Sans.otf") format("opentype");
+}
